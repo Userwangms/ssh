@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssh:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ssh_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ssh/web/Web" />
+      <element id="dir-copy" path="$PROJECT_DIR$/target/ssh/WEB-INF" />
+      <element id="dir-copy" path="$PROJECT_DIR$/target/ssh/META-INF" />
+    </root>
+  </artifact>
+</component>
